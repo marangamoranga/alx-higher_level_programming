@@ -1,7 +1,11 @@
 #!/usr/bin/python3
-"""Contains the rectangle class"""
+"""
+    0-rectangle: class Rectangle
+"""
 
 
 class Rectangle:
+    """
+        An empty class
+    """
     pass
-    """A rectangle class"""
