@@ -5,7 +5,9 @@
 const myArg = process.argv[2];
 
 if (isNaN(Number(myArg))) {
-  console.log('Not a number');
+  console.log('Missing number of occurences');
 } else {
-  console.log('My number: ' + myArg);
+  for (let i = 0; i < myArg; i++) {
+    console.log('C is fun');
+  }
 }
